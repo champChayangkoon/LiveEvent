@@ -1,0 +1,3 @@
+include ':liveevent'
+include ':app'
+rootProject.name = "LiveEventExample"
