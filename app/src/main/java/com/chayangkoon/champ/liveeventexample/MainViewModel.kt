@@ -1,7 +1,6 @@
 package com.chayangkoon.champ.liveeventexample
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import com.chayangkoon.champ.liveevent.LiveEvent
 import com.chayangkoon.champ.liveevent.MutableLiveEvent
 
