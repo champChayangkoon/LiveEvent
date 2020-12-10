@@ -48,6 +48,7 @@ fun <T> LiveEvent<T>.getOrAwaitValue(
 /**
  * Observes a [LiveEvent] until the `block` is done executing.
  */
+@VisibleForTesting(otherwise = VisibleForTesting.NONE)
 fun <T> LiveEvent<T>.observeForTesting(block: () -> Unit) {
     val observer = Observer<Event<T>> { }
     try {
